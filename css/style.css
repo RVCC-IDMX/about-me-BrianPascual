@@ -1,0 +1,30 @@
+body {
+    font-family:Roboto;
+    background-color: #B23EDE;
+    color: #AEDE3E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Funnel+Display";
+    font-size:30pt;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    color:#3158C3;
+    border: 2px solid #585E4A;
+    background-color: #322C34;
+    text-align:center;
+    padding:10px;
+}
+
+#hero img{
+    width:300px;
+}
+
+#bio {
+    text-align:center;
+}
