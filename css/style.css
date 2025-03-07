@@ -1,7 +1,7 @@
 body {
     font-family:Roboto;
     background-color: #B23EDE;
-    color: #AEDE3E;
+    color: #cfff60;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +29,7 @@ header {
 #bio {
     text-align:center;
 }
-#hobbies{
-text-align:center;
+#hobbies ul li:nth-child(even){
+color: #000000;
 
 }
