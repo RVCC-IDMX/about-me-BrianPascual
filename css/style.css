@@ -23,8 +23,13 @@ header {
 
 #hero img{
     width:300px;
+    max-width:sss100%;
 }
 
 #bio {
     text-align:center;
+}
+#hobbies{
+text-align:center;
+
 }
