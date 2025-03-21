@@ -56,7 +56,12 @@ color: #000000;
 #gallery figure {
 text-align:center;
 }
+
 /* Literature */
+
+#lit h2 {
+    text-align: center;
+}
 #lit {
     border: 2px solid#cfff60;
 }
