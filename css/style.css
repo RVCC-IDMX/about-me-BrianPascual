@@ -70,12 +70,13 @@ text-align: center;
 }
 #lit {
     border: 2px solid#cfff60;
+    margin-bottom: 2rem;
 }
 
 #lit div{
     padding:2rem;
     max-width:40rem;
-    margin: 0 auto;
+    margin:0  auto;
 }
 
 /* Dropcaps */
@@ -146,21 +147,25 @@ grid-column: 1/-1;
 }
 #myvideo {
     text-align: center;
+    
 }
 #video {
     display: grid;
         grid-template-columns:1fr;
 }
 #video {
-  position:relative;
+  position:center;
   width: 80%; 
   max-width: 600px;
   margin: 0 auto; 
-  padding-top: 1%; 
-  padding-right: 1%;
-  padding-left: 3.5%;
-  background-color: #2100f8; 
   border-radius: 20px; 
   overflow: hidden; 
+}
+
+/* Contact Form */
+
+#formElements {
+    display: grid;
+    
 }
 
