@@ -9,16 +9,16 @@ html {
  header is at top
 */
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
    
 }
 
 
 /* add some padding back to rest of page */
 main {
-    padding:2vw;
+    padding: 2vw;
 }
 
 
