@@ -18,11 +18,11 @@ The design choices reflect a clean, modern, and personal aesthetic. Below are th
 
 | Color Name       | Preview  |
 |------------------|----------|
-| Light Purple     | #B23EDE|
-| Black            | #322C34|
+| Green            |rgb(88, 230, 49)|
+| Black            |rgb(0, 0, 0)|
 | Slate Gray       | #585E4A|
-| Light Green      | #cfff60|
-| White            | #F8F8FF| 
+| Blue             |rgb(62, 47, 231)|
+| White            |rgb(253, 253, 253)| 
 
 
 These colors were chosen for their contrast, readability, and subtle vibrance. The overall scheme aims to strike a balance between professional and personal.
@@ -34,6 +34,12 @@ While the majority of content, layout, and imagery was created or captured by me
 - **Fonts**: Google Fonts – [Roboto](https://fonts.google.com/specimen/Roboto)
 - **Images**: All images used are my personal photography or artwork, except:
   - Background textures and icons (if any) are from [Unsplash](https://unsplash.com/) and [Font Awesome](https://fontawesome.com/)
+  **text**: 
+  Bishop, Bill, and Gillian Hadfield. "The Saturday Debate: Should We Fear Artificial Intelligence?" <em>Toronto Star</em>, 17 Apr. 2021. Gale In Context: Opposing Viewpoints.
+  Goldbloom, Anthony. "The Jobs We'll Lose to Machines—and the Ones We Won't." <em>TED</em>, 2016, <a href="https://www.ted.com/talks/anthony_goldbloom_the_jobs_we_ll_lose_to_machines_and_the_ones_we_won_t">https://www.ted.com/talks/anthony_goldbloom</a>. Accessed 20 Apr. 2025.
+  IBM. "What Is Artificial Intelligence (AI)?" <em>IBM</em>, <a href="https://www.ibm.com/topics/artificial-intelligence">https://www.ibm.com/topics/artificial-intelligence</a>. Accessed 20 Apr. 2025.</li>
+  Schick, Isaac. "There Is No Reason to Fear Artificial Intelligence." Gale Opposing Viewpoints Online Collection, 2025.</li>
+
 
 If I integrate additional assets later, this section will be updated accordingly.
 

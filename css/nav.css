@@ -69,7 +69,7 @@ padding: 0.5em 0;
 */
 .navbar-links a {
     color: whitesmoke;
-    background-color: #000000;
+    background-color: #333;
     font-size: 2rem;
     padding: 1rem 1.25rem;
     letter-spacing: 2px;
@@ -104,44 +104,3 @@ such that no text wraps
  justify-content: space-between;    
 }
 }
-.nav-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: none;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    z-index: 1001;
-  }
-  
-  .nav_menu {
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-  }
-  
-  @media (max-width: 768px) {
-    .nav-toggle {
-      display: block;
-    }
-  
-    .nav_menu {
-      display: none;
-      flex-direction: column;
-      background-color: #222;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      padding: 1rem;
-      width: 100%;
-    }
-  
-    .nav_menu.open {
-      display: flex;
-    }
-  
-    .navbar-links {
-      display: none;
-    }
-  }
