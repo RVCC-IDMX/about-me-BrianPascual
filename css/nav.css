@@ -104,3 +104,61 @@ such that no text wraps
  justify-content: space-between;    
 }
 }
+
+/* Hidden checkbox for toggle */
+.nav-toggle {
+    display:none;
+    
+  }
+  
+  /* Hamburger icon container */
+  .hamburger {
+    display: block;
+    font-size: 3rem;
+    cursor: pointer;
+    margin-left: auto;
+    color: whitesmoke;
+    background: none;
+    border: none;
+    z-index: 999;
+  }
+  
+  .hamburger .close-icon {
+    display: none;
+  }
+  
+  /* Hide menu by default */
+  .navbar-links {
+    display: none;
+  }
+  
+  /* Show hamburger only on mobile */
+  @media screen and (max-width: 59.99rem) {
+    .navbar {
+      position: relative;
+    }
+  
+    .nav-toggle:checked + .hamburger .open-icon {
+      display: none;
+    }
+  
+    .nav-toggle:checked + .hamburger .close-icon {
+      display: inline;
+    }
+  
+    .nav-toggle:checked ~ .navbar-links {
+      display: block;
+    }
+  }
+  
+  /* Restore normal horizontal layout on desktop */
+  @media screen and (min-width: 60rem) {
+    .hamburger {
+      display: none;
+    }
+  
+    .navbar-links {
+      display: block;
+    }
+  }
+  
